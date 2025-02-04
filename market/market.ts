@@ -18,6 +18,6 @@ export async function getMinimalMarketV3(
       length: 32 * 3,
     },
   });
-
+ 
   return MINIMAL_MARKET_STATE_LAYOUT_V3.decode(marketInfo!.data);
 }
